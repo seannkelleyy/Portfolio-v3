@@ -3,7 +3,7 @@ import { ProjectsData } from './projectData'
 
 export const Projects = () => {
 	return (
-		<Card>
+		<Card className='flex items-center justify-center w-10/12'>
 			<h1>Projects</h1>
 			<section>
 				{ProjectsData.map((project, index) => (
@@ -13,8 +13,8 @@ export const Projects = () => {
 								src={project.image}
 								alt={project.title}
 							/>
+							<h2>{project.title}</h2>
 						</a>
-						<h2>{project.title}</h2>
 					</div>
 				))}
 			</section>

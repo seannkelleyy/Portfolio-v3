@@ -1,8 +1,6 @@
-import React from 'react'
-
 export const ContactFooter = () => {
 	return (
-		<div className='contact-section'>
+		<div className='text-center'>
 			<div className='contact-info'>
 				<p>This website was built by Sean Kelley</p>
 				<p>Location: Columbus, Ohio</p>
