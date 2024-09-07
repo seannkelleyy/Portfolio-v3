@@ -4,7 +4,7 @@ import { Card, CardTitle } from '../../ui/card'
 
 export const Resume = () => {
 	return (
-		<Card className='flex flex-wrap justify-center flex-col items-center p-3 rounded-[.5rem] w-6/12 max-w-[850px] shadow-lg'>
+		<Card className='flex flex-wrap justify-center flex-col items-center p-3 rounded-[.5rem] w-10/12 md:w-6/12 max-w-[850px] shadow-lg'>
 			<CardTitle className='text-3xl'>Resume</CardTitle>
 			<AspectRatio
 				ratio={8 / 11.5}
