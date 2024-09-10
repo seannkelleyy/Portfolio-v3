@@ -101,7 +101,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 				</div>
 				<h2 className='text-xl'>{project.title}</h2>
 				<div
-					className='flex gap-2 flex-wrap justify-center'
+					className='flex gap-2 justify-center'
 					title='Buttons'
 				>
 					{project.link != '' && (
