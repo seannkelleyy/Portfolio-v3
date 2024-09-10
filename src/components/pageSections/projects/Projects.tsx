@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Code } from 'lucide-react'
-import { Badge } from '../../../ui/badge'
-import { Card, CardContent, CardHeader, CardTitle } from '../../../ui/card'
 import { ProjectsData } from './projectData'
-import { Button } from '../../../ui/button'
 import { Project } from '@/types/project'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
 
 export const Projects = () => {
 	return (
@@ -69,10 +69,10 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 	}
 
 	return (
-		<Card className='m-2 text-center flex flex-col items-center justify-between max-w-[24rem] h-[34rem]'>
-			<CardContent className='h-2/3 pt-8 px-0 pb-0'>
+		<Card className='m-2 text-center flex flex-col items-center justify-between max-w-[24rem] h-[36rem]'>
+			<CardContent className='h-2/3 pt-4 px-2 pb-2'>
 				{showDescription ? (
-					<CardContent className='flex items-center h-full'>{project.description}</CardContent>
+					<div className='flex items-start h-full overflow-y-auto p-2'>{project.description}</div>
 				) : (
 					<a href={project.link}>
 						<div className='w-full h-full flex items-center justify-center'>
@@ -101,19 +101,21 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 				</div>
 				<h2 className='text-xl'>{project.title}</h2>
 				<div
-					className='flex gap-4 flex-wrap justify-center'
+					className='flex gap-2 flex-wrap justify-center'
 					title='Buttons'
 				>
-					<Button variant={'outline'}>
-						<a
-							href={project.link}
-							target='_blank'
-							rel='noopener noreferrer'
-							className='flex items-center gap-2'
-						>
-							Link
-						</a>
-					</Button>
+					{project.link != '' && (
+						<Button variant={'outline'}>
+							<a
+								href={project.link}
+								target='_blank'
+								rel='noopener noreferrer'
+								className='flex items-center gap-2'
+							>
+								Link
+							</a>
+						</Button>
+					)}
 					<Button variant={'outline'}>
 						<a
 							href={project.code}

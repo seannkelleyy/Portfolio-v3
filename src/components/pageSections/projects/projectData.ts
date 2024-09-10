@@ -38,8 +38,8 @@ export const ProjectsData: Project[] = [
     {
         title: 'My Second  Website',
         code: 'https://github.com/seannkelleyy/Portfolio-v2',
-        link: 'https://v2.breeze.seannkelleyy.com',
-        image: '/projects/portfolioV2.png',
+        link: 'https://www.v2.seannkelleyy.com',
+        image: '/projects/portfolioV2.jpeg',
         technologies: [{
             title: 'React',
             color: 'bg-blue-400 text-black',
@@ -87,7 +87,7 @@ export const ProjectsData: Project[] = [
         title: 'Pomodoro Timer',
         code: 'https://github.com/seannkelleyy/Pomodoro',
         link: 'https://www.timer.seannkelleyy.com',
-        image: '/projects/pomodoro.png',
+        image: '/projects/pomodoro.jpeg',
         technologies: [{
             title: 'React',
             color: 'bg-blue-500 text-black',
@@ -102,8 +102,8 @@ export const ProjectsData: Project[] = [
     {
         title: 'This Website',
         code: 'https://github.com/seannkelleyy/Portfolio-v3',
-        link: '',
-        image: '/projects/portfolioV2.png',
+        link: 'https://www.seannkelleyy.com',
+        image: '/projects/portfolioV3.jpeg',
         technologies: [{
             title: 'React',
             color: 'bg-blue-500 text-black',
