@@ -5,7 +5,7 @@ export const ProjectsData: Project[] = [
         title: 'Breeze Budgeting',
         code: 'https://github.com/seannkelleyy/Breeze',
         link: 'https://www.breeze.seannkelleyy.com',
-        image: '/projects/breeze.png',
+        image: '/projects/breeze2.jpeg',
         technologies: [
             {
                 title: 'React',
