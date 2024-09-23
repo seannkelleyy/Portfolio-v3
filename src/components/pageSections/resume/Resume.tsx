@@ -17,7 +17,7 @@ export const Resume = () => {
 				/>
 			</AspectRatio>
 			<Button variant='outline'>
-				<a href='/resume.pdf'>Download A Copy</a>
+				<a href='/Sean-Kelley-Resume.pdf'>Download A Copy</a>
 			</Button>
 		</Card>
 	)
