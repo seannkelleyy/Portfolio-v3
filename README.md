@@ -1,3 +1,9 @@
+# Sean Kelley Portfolio
+
+This is my latest iteration of my portfolio website. You can access the hosted version here: https://www.seannkelleyy.com/.
+
+This application was built using Typescript React, TailwindCSS and ShadCN. 
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
