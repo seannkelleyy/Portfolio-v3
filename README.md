@@ -2,7 +2,7 @@
 
 This is my latest iteration of my portfolio website. You can access the hosted version here: https://www.seannkelleyy.com/.
 
-This application was built using Typescript React, TailwindCSS and ShadCN. 
+This application was built using Typescript React, TailwindCSS and ShadCN and it is hosted using Azure Static Web Apps. 
 
 # React + TypeScript + Vite
 
