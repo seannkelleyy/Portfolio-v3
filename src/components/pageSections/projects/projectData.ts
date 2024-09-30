@@ -39,7 +39,7 @@ export const ProjectsData: Project[] = [
         title: 'This Website',
         code: 'https://github.com/seannkelleyy/Portfolio-v3',
         link: 'https://www.seannkelleyy.com',
-        image: '/projects/portfolioV3.jpeg',
+        image: '/projects/portfolioV3.png',
         technologies: [{
             title: 'React',
             color: 'bg-blue-500 text-black',
