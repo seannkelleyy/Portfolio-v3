@@ -10,8 +10,10 @@ export const AboutMe = () => {
 				className='w-1/2 rounded-full'
 			/>
 			<p className='max-w-[75ch] text-lg'>
-				I am a senior at The Ohio State University pursuing a Bachelor's degree in Computer Science and Engineering. I have experience working in an AGILE setting creating
-				full-stack software solutions using React, .NET, Azure and Docker.
+				I am a Software Engineer with a passion for learning and collaborating to build impactful solutions that improve people's lives. As a proficient Full Stack Developer, I
+				have experience working with .NET, React, TypeScript, Java, Python, Docker, and Azure. I’m always eager to expand my knowledge while sharing my expertise to support the
+				growth and success of others. My mission is to leverage software to create meaningful value for users. I am excited to connect, learn, and contribute to innovative projects
+				that make a difference.
 			</p>
 		</Card>
 	)
